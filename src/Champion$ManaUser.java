@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 @SuppressWarnings("unused")
-public class Champion$ManaUser {
+public class Champion$ManaUser implements Hero {
 	/*
 	 * GPL acronym means Growth Per Level
 	 */	
