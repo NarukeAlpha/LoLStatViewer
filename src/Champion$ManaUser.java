@@ -20,6 +20,7 @@ public class Champion$ManaUser implements Hero {
 	double aDGPL;
 	double attackSpeed;
 	double attackSpeedGPL;
+	double abilityPower;
 	double armor;
 	double armorGPL;
 	double magicResist;
@@ -27,7 +28,7 @@ public class Champion$ManaUser implements Hero {
 	double moveSpeed;
 	public Champion$ManaUser(String name, double initHealth, double healthGPL, double healthRegen,
 			double healthRegenGPL, double mana, double manaGPL, double manaRegen, double manaRegenGPL,
-			double attackRange, String attackType, double aD, double aDGPL, double attackSpeed, double attackSpeedGPL,
+			double attackRange, String attackType, double aD, double aDGPL, double attackSpeed, double attackSpeedGPL, double abilityPower,
 			double armor, double armorGPL, double magicResist, double magicResistGPL, double moveSpeed) {
 		super();
 		this.name = name;
@@ -45,6 +46,7 @@ public class Champion$ManaUser implements Hero {
 		this.aDGPL = aDGPL;
 		this.attackSpeed = attackSpeed;
 		this.attackSpeedGPL = attackSpeedGPL;
+		this.abilityPower = abilityPower;
 		this.armor = armor;
 		this.armorGPL = armorGPL;
 		this.magicResist = magicResist;
@@ -140,6 +142,12 @@ public class Champion$ManaUser implements Hero {
 	}
 	public void setAttackSpeedGPL(double attackSpeedGPL) {
 		this.attackSpeedGPL = attackSpeedGPL;
+	}
+	public double getAbilityPower(){
+		return abilityPower;
+	}
+	public void setAbilityPower(double abilityPower){
+		this.abilityPower = abilityPower;
 	}
 	public double getArmor() {
 		return armor;

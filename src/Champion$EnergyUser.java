@@ -1,12 +1,14 @@
 
-public class ChampionSpecificAatrox implements Hero {
+public class Champion$EnergyUser {
 	private String name;
 	double initHealth;
 	double healthGPL;
 	double healthRegen;
 	double healthRegenGPL;
-	double blood;
-	double bloodGPL;
+	double energy;
+	double energyGPL;	
+	double energyRegen;
+	double energyRegenGPL;
 	double attackRange;
 	String attackType;
 	double aD;
@@ -19,18 +21,20 @@ public class ChampionSpecificAatrox implements Hero {
 	double magicResist;
 	double magicResistGPL;
 	double moveSpeed;
-	public ChampionSpecificAatrox(String name, double initHealth, double healthGPL, double healthRegen,
-			double healthRegenGPL, double blood, double bloodGPL, double attackRange, String attackType, double aD,
-			double aDGPL, double attackSpeed, double attackSpeedGPL, double abilityPower, double armor, double armorGPL, double magicResist,
-			double magicResistGPL, double moveSpeed) {
+	public Champion$EnergyUser(String name, double initHealth, double healthGPL, double healthRegen,
+			double healthRegenGPL, double energy, double energyGPL, double energyRegen, double energyRegenGPL,
+			double attackRange, String attackType, double aD, double aDGPL, double attackSpeed, double attackSpeedGPL, double abilityPower,
+			double armor, double armorGPL, double magicResist, double magicResistGPL, double moveSpeed) {
 		super();
 		this.name = name;
 		this.initHealth = initHealth;
 		this.healthGPL = healthGPL;
 		this.healthRegen = healthRegen;
 		this.healthRegenGPL = healthRegenGPL;
-		this.blood = blood;
-		this.bloodGPL = bloodGPL;
+		this.energy = energy;
+		this.energyGPL = energyGPL;
+		this.energyRegen = energyRegen;
+		this.energyRegenGPL = energyRegenGPL;
 		this.attackRange = attackRange;
 		this.attackType = attackType;
 		this.aD = aD;
@@ -74,17 +78,29 @@ public class ChampionSpecificAatrox implements Hero {
 	public void setHealthRegenGPL(double healthRegenGPL) {
 		this.healthRegenGPL = healthRegenGPL;
 	}
-	public double getBlood() {
-		return blood;
+	public double getEnergy() {
+		return energy;
 	}
-	public void setBlood(double blood) {
-		this.blood = blood;
+	public void setEnergy(double energy) {
+		this.energy = energy;
 	}
-	public double getBloodGPL() {
-		return bloodGPL;
+	public double getEnergyGPL() {
+		return energyGPL;
 	}
-	public void setBloodGPL(double bloodGPL) {
-		this.bloodGPL = bloodGPL;
+	public void setEnergyGPL(double energyGPL) {
+		this.energyGPL = energyGPL;
+	}
+	public double getEnergyRegen() {
+		return energyRegen;
+	}
+	public void setEnergyRegen(double energyRegen) {
+		this.energyRegen = energyRegen;
+	}
+	public double getEnergyRegenGPL() {
+		return energyRegenGPL;
+	}
+	public void setEnergyRegenGPL(double energyRegenGPL) {
+		this.energyRegenGPL = energyRegenGPL;
 	}
 	public double getAttackRange() {
 		return attackRange;

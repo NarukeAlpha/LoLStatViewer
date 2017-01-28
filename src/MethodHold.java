@@ -145,10 +145,56 @@ public class MethodHold extends MainClass {
 		int x=1;
 		for(String s: champList){
 			System.out.print(x+":"+s+"\t");
-			if(x%8==0)
+			if(x%6==0)
 				System.out.println();
 			x++;
 		}
+		
+	}
+
+
+	public static void champOLC(ArrayList<Hero> championList) {
+    	ChampionSpecificAatrox Aatrox = new ChampionSpecificAatrox("Aatrox",537.8,85,
+    			6.59,0.5,
+    			105,45,
+    			150,"Melee",
+    			60.376,3.2,0.651,0.03,0,
+    			24.384,3.8,32.1,1.25,
+    			345);
+		Champion$ManaUser Ahri = new Champion$ManaUser("Ahri",
+				514.4,80,
+				6.5,0.6,
+				334,50,
+				6,0.8,
+				550,"Range",
+				53.04,3,
+				0.668,0.02,0,
+				20.88,3.5,
+				30,0,
+				330);
+		Champion$EnergyUser Akali = new Champion$EnergyUser("Akali",587.8,85,8.34,0.65,
+				200,0,50,0,
+				125,"Melee",
+				58.376,3.2,0.694,0.031,0,
+				26.38,3.5,32.1,1.25,350);
+		Champion$ManaUser Alistar = new Champion$ManaUser("Alistar",613.36,106,8.675,0.85,
+				278.84,38,8.5,0.8,
+				125,"Melee",
+				61.112,3.62,0.625,0.02125,0,
+				24.38,3.5,31.2,1.25,330);
+		Champion$ManaUser Amumu = new Champion$ManaUser("Amumu",613.12,84,8.875,0.85,
+				287.2,40,7.38,0.525,
+				125,"Melee",
+				53.384,3.8,0.638,0.0218,0,
+				23.544,3.8,32.1,1.25,335);
+		Champion$ManaUser Anivia = new Champion$ManaUser("Anivia",467.6,70,5.57,0.55,
+				396.04,50,6,0.8,
+				600,"Ranged",
+				51.376,3.2,0.625,0.0168,0,
+				21.22,4,30,0,335);
+    	championList.add(Aatrox);
+    	championList.add(Ahri);
+
 		
 	}
 

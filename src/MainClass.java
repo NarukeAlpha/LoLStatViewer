@@ -7,37 +7,13 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-//		int lvlOfChamp=0;
-//		int userChampNumChoice;
-//		int NumOfChampions=134;
 		ArrayList<String> ChampList = new ArrayList<String>();
-		MethodHold.champLC(ChampList);
-		MethodHold.champPrint(ChampList);
+		MethodHold.champLC(ChampList); // creating champion names string list
+		MethodHold.champPrint(ChampList);// printing all champions
 		System.out.println();
 		System.out.println();
-    	ChampionSpecificAatrox Aatrox = new ChampionSpecificAatrox("Aatrox",537.8,85,
-    			6.59,0.5,
-    			105,45,
-    			150,"Melee",
-    			60.376,3.2,0.651,0.03,
-    			24.384,3.8,32.1,1.25,
-    			345);
-		Champion$ManaUser Ahri = new Champion$ManaUser("Ahri",
-				514.4,80,
-				6.5,0.6,
-				334,50,
-				6,0.8,
-				550,"Range",
-				53.04,3,
-				0.668,0.02,
-				20.88,3.5,
-				30,0,
-				330);
-    	
-    	ArrayList<Hero> ChampionList = new ArrayList<Hero>();
-    	ChampionList.add(Aatrox);
-    	ChampionList.add(Ahri);
- 
+		ArrayList<Hero> ChampionList = new ArrayList<Hero>();
+		MethodHold.champOLC(ChampionList); //Champion Object ArrayList creator
 
 //		while(true){
 //			System.out.println("Enter the number of the champion to examine \t Enter 0 to exit:");
