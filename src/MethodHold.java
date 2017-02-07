@@ -192,6 +192,33 @@ public class MethodHold extends MainClass {
 				600,"Ranged",
 				51.376,3.2,0.625,0.0168,0,
 				21.22,4,30,0,335);
+		Champion$ManaUser Annie = new Champion$ManaUser("Annie",511.68,76,5.42,0.55,
+				334,50,6,0.8,
+				575,"Ranged",
+				50.41,2.625,0.579,0.0136,0,
+				19.22,4,30,0,335);
+		Champion$ManaUser Ashe = new Champion$ManaUser("Ashe",527.72,79,5.42,0.55,
+				280,32,6.97,0.4,
+				600,"Ranged",
+				56.51,2.26,0.658,0.0333,0,
+				21.212,3.4,30,0,325);
+		Champion$ManaUser AurelionSol = new Champion$ManaUser("Aurelion Sol",550,80,6.5,0.6,
+				350,50,6,0.8,
+				550,"Ranged",
+				57,32,0.625,0.0101,0,
+				19,3.6,30,0,325);
+		Champion$ManaUser Azir = new Champion$ManaUser("Azir",524.4,80,6.92,0.55,
+				350.56,42,6,0.8,
+				525,"Ranged",
+				52,2.8,0.625,0.015,0,
+				19.04,3,30,0,325);
+		Champion$ManaUser Bard = new Champion$ManaUser("Bard",535,93,5.4,0.55,
+				350,50,6,0.45,
+				500,"Ranged",
+				52,3,0.625,0.01,0,
+				25,4,30,0,330);
+		
+		
     	championList.add(Aatrox);
     	championList.add(Ahri);
 
