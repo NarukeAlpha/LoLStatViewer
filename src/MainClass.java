@@ -14,6 +14,7 @@ public class MainClass {
 		System.out.println();
 		ArrayList<Hero> ChampionList = new ArrayList<Hero>();
 		MethodHold.champOLC(ChampionList); //Champion Object ArrayList creator
+		ChampionList.get(0).statPrint(4);
 
 //		while(true){
 //			System.out.println("Enter the number of the champion to examine \t Enter 0 to exit:");

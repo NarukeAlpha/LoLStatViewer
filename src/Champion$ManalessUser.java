@@ -143,6 +143,19 @@ public class Champion$ManalessUser implements Hero{
 	public void setMoveSpeed(double moveSpeed) {
 		this.moveSpeed = moveSpeed;
 	}
-	
+	public void statPrint (int lvl){
+		System.out.println("Name: "+name);
+		System.out.println("level: "+lvl);
+		System.out.println("Health: "+ (initHealth+(healthGPL*lvl)));
+		System.out.println("Health Regen: "+(healthRegen+(healthRegenGPL*lvl)));
+		System.out.println("Auto Attack Type: "+attackType);
+		System.out.println("Auto Attack Range: "+attackRange);
+		System.out.println("Attack Damage: "+(aD+(aDGPL*lvl)));
+		System.out.println("Attack Speed: "+(attackSpeed+(attackSpeedGPL*lvl)));
+		System.out.println("Armor: "+(armor+(armorGPL*lvl)));
+		System.out.println("Magic Resist: "+(magicResist+(magicResistGPL*lvl)));
+		System.out.println("Movement Speed: "+moveSpeed);
+
+	}
 
 }

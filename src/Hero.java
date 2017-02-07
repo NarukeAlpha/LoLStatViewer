@@ -14,5 +14,6 @@ public interface Hero {
 	double getArmorGPL();
 	double getMagicResist();
 	double getMagicResistGPL();
+	void statPrint(int lvl);
 
 }

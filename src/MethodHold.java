@@ -10,7 +10,7 @@ public class MethodHold extends MainClass {
 		a.add("Amumu  ");		
 		a.add("Anivia");		
 		a.add("Annie  ");		
-		a.add("Ashe");		
+		a.add("Ashe  ");		
 		a.add("Aurelion Sol");		
 		a.add("Azir   ");		
 		a.add("Bard   ");		
@@ -217,52 +217,37 @@ public class MethodHold extends MainClass {
 				500,"Ranged",
 				52,3,0.625,0.01,0,
 				25,4,30,0,330);
+		Champion$ManaUser Blitzcrank = new Champion$ManaUser("Blitzcrank",582.6,95,8.51,0.75,
+				267.2,40,8.5,0.8,
+				125, "Melee",
+				61.54,3.5,0.625,0.0113,0,
+				24.38,4,32.1,1.25,325);
+//		Champion$ManaUser Brand = new Champion$ManaUser("Brand",);
 		
 		
     	championList.add(Aatrox);
     	championList.add(Ahri);
+    	championList.add(Akali);
+    	championList.add(Alistar);
+    	championList.add(Amumu);
+    	championList.add(Anivia);
+    	championList.add(Annie);
+    	championList.add(Ashe);
+    	championList.add(AurelionSol);
+    	championList.add(Azir);
+    	championList.add(Bard);
+    	championList.add(Blitzcrank);
+    	 	
 
 		
 	}
 
 	
 	
+
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	//	
-//	public static void manaChampsPrint(String name, double health, double healthReg,double mana,double manaReg,
-//			String AttackRange,String aAType, double ad, double adspeed, double armor,double magicResist){
-//		System.out.println("Name: " +name);
-//		System.out.println("Health: "+health);
-//		System.out.println("Health Regen: "+healthReg/5);
-//		System.out.println("Mana: "+mana);
-//		System.out.println("Mana Regen:"+manaReg/5);
-//		System.out.println("Auto Attack Type: "+aAType);
-//		System.out.println("Auto Attack Range: "+AttackRange);
-//		System.out.println("Attack Damage: "+ad);
-//		System.out.println("Attack Speed: "+adspeed);
-//		System.out.println("Armor: "+armor);
-//		System.out.println("Magic Resist: "+magicResist);
-//		
-//	}
-//	
+
 //	public static void championStatsDisplay( int codex, int lvl){
 //		switch(codex){
 //		case 1:
