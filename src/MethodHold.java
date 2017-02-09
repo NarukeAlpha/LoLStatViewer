@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class MethodHold extends MainClass {
 	
-	public static void champLC(ArrayList a){
+	public static void champLC(ArrayList<String> a){
 		a.add("Aatrox");
 		a.add("Ahri  ");
 		a.add("Akali ");

@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 import javax.swing.JFrame;
 
+@SuppressWarnings("unused")
 public class MainClass {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		ArrayList<String> ChampList = new ArrayList<String>();
@@ -14,7 +14,7 @@ public class MainClass {
 		System.out.println();
 		ArrayList<Hero> ChampionList = new ArrayList<Hero>();
 		MethodHold.champOLC(ChampionList); //Champion Object ArrayList creator
-		ChampionList.get(0).statPrint(4);
+		ChampionList.get(0).statPrint(12);
 
 //		while(true){
 //			System.out.println("Enter the number of the champion to examine \t Enter 0 to exit:");

@@ -159,6 +159,7 @@ public class ChampionSpecificAatrox implements Hero {
 		this.moveSpeed = moveSpeed;
 	}
 	public void statPrint (int lvl){
+		lvl = lvl-1;
 		System.out.println("Name: "+name);
 		System.out.println("level: "+lvl);
 		System.out.println("Health: "+ (initHealth+(healthGPL*lvl)));

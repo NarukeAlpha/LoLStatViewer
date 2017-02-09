@@ -1,29 +1,24 @@
 
 public class Skill {
-	private String Q;
-	private long damage;
-	// Other properties of skills
 	
-	public Skill(String q, long damage) {
-		super();
-		Q = q;
-		this.damage = damage;
-	}
-
-	public String getQ() {
-		return Q;
-	}
-
-	public void setQ(String q) {
-		Q = q;
-	}
-
-	public long getDamage() {
-		return damage;
-	}
-
-	public void setDamage(long damage) {
-		this.damage = damage;
+	public void printAatroxSkillSet(ChampionSpecificAatrox aatrox, int lvl){
+		lvl = lvl-1;
+//		System.out.println("Name: "+name);
+//		System.out.println("level: "+lvl);
+//		System.out.println("Health: "+ (initHealth+(healthGPL*lvl)));
+//		System.out.println("Health Regen: "+(healthRegen+(healthRegenGPL*lvl)));
+//		System.out.println("Blood: "+(blood+(bloodGPL*lvl)));
+//		System.out.println("Auto Attack Type: "+attackType);
+//		System.out.println("Auto Attack Range: "+attackRange);
+//		System.out.println("Attack Damage: "+(aD+(aDGPL*lvl)));
+//		System.out.println("Attack Speed: "+(attackSpeed+(attackSpeedGPL*lvl)));
+//		System.out.println("Armor: "+(armor+(armorGPL*lvl)));
+//		System.out.println("Magic Resist: "+(magicResist+(magicResistGPL*lvl)));
+//		System.out.println("Movement Speed: "+aatrox.moveSpeed;
+		/*
+		 * terminar este metodo, entonces lo conectas con un switch case que funciona asi, metodo en main class llama a un metodo en method hold
+		 * que le pasas el champion por posicion en el array y el nivel al switch case que contiene el metodo del skill
+		 */
 	}
 
 }
